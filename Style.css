@@ -1,0 +1,118 @@
+ .blue{
+    height:237px;
+    width:386px;
+    background-color:#68a4ff;
+    animation:stretch 3s ease-in;
+}
+
+@keyframes stretch{
+    from{
+        width:0px;
+        opacity:0;
+    }
+    to{
+        width:395px;
+        opacity:100%;
+    }
+}
+
+
+
+.circle{
+        width: 160px;
+         height: 160px;
+         border-radius:100px;
+         background-color: #fff;
+         position: relative;
+         left:100px;
+         top:-200px;
+        
+      }
+      
+
+p{
+    color:blacl;
+    position:relative ;
+    top:-180px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#D5D1DF;
+    border-radius:10px;
+    font-size:20px;
+    font-family: 'Handlee', cursive;
+   
+
+}
+
+
+
+
+h3{
+    color:#0D7A51;
+    position:relative ;
+    top:-170px;
+    text-align:center ;
+    font-size:30px;
+    font-family: 'Handlee', cursive;
+    animation:colorChange 3s ease-in infinite,enter 4s ease-in;
+}
+
+@keyframes colorChange{
+
+    0%{color:#FF9933;}
+    33%{color:#000080;}
+    66%{color:#138808;}
+    100%{color:#FF9933;}
+    
+}
+@keyframes enter{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+
+
+
+
+h4{
+    font-family: 'Handlee', cursive;
+    font-weight:bold;
+    font-size:30px;
+    position:relative ;
+    top:-215px;
+    text-align:right;
+    animation:colorChange 3s ease-in infinite,enter 4s ease-in;
+}
+
+
+@keyframes colorChange{
+    0%{color:#FF9933;}
+    33%{color:#000080;}
+    66%{color:#138808;}
+    100%{color:#FF9933;}
+}
+@keyframes enter{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+#main-footer {
+     text-align: center;
+      background: #D5D1DF;
+      color: black;
+      font-family: 'Handlee', cursive;
+      border-radius:10px;
+      padding:10px;
+      animation:colorChange 3s ease-in infinite,enter 4s ease-in;
+
+        }@keyframes colorChange{
+    0%{color:#FF9933;}
+    33%{color:#000080;}
+    66%{color:#138808;}
+    100%{color:#FF9933;}
+}
+@keyframes enter{
+    from{opacity:0;}
+    to{opacity:1;} 
